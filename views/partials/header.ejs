@@ -1,0 +1,107 @@
+<html>
+  <head>
+    <title>Header Component</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet" />
+    <style>
+      .navbar {
+        height: 83px;
+      }
+      .container {
+        max-width: 1200px;
+      }
+      .navbar-brand {
+        margin-right: auto;
+      }
+      .navbar-nav {
+        display: flex;
+        align-items: center;
+      }
+      .navbar-nav .nav-item {
+        margin-right: 40px;
+      }
+      .navbar-nav .nav-item:last-child {
+        margin-right: 0;
+      }
+      .btn {
+        color: #fff;
+        background-color: #3a7e7f;
+        width: 202px;
+        height: 50px;
+        border-radius: 10px;
+      }
+      .btn:hover {
+        background-color: #3a7e7f; /* цвет фона */
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white h-83">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="82"
+            height="49"
+            viewBox="0 0 82 49"
+            fill="none">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M26.5197 0.385958C23.7257 1.14463 20.7453 3.01092 18.9162 5.14731L18.234 5.94419L19.274 5.14365C19.8458 4.70324 20.9914 3.99721 21.8198 3.57469C27.1929 0.833681 33.0746 1.80554 36.9589 6.07608C38.7372 8.03139 39.7994 10.2639 41.4855 15.5894C42.9989 20.3693 44.0734 22.8452 45.7132 25.3312C50.1148 32.0044 58.0759 35.3945 66.0663 33.9985C70.998 33.137 75.1463 30.862 78.8794 26.9721C80.0598 25.7421 81.0257 24.6666 81.0257 24.5823C81.0257 24.4977 79.7972 23.3893 78.2958 22.1189C76.7942 20.8485 75.0478 19.3686 74.4147 18.8302L73.2637 17.851L72.4276 19.1041C68.3152 25.2686 60.4398 27.7019 54.3513 24.6892C50.6723 22.8688 48.1268 19.859 46.0888 14.9186C43.2433 8.02164 42.7685 7.18106 40.2959 4.65853C38.153 2.47235 36.8788 1.63056 34.3584 0.735519C32.0206 -0.0946893 28.8159 -0.237562 26.5197 0.385958ZM15.103 14.4981C11.1993 15.2013 7.19841 17.1007 4.05842 19.7411C2.91579 20.702 0.180108 23.7015 0.169925 24.0047C0.165732 24.1291 4.16943 27.6056 6.97479 29.9137L7.89441 30.6703L8.62814 29.5454C10.6055 26.5138 13.6427 24.2181 17.1359 23.1145C19.2864 22.4351 23.0095 22.4341 25.0223 23.1123C27.1999 23.8462 29.027 25.0495 30.9121 26.9916C32.9586 29.1 33.79 30.5364 35.8255 35.4803C36.646 37.473 37.6763 39.7193 38.1151 40.4723C40.2492 44.1343 43.4311 46.7717 47.1841 47.9891C47.9014 48.2218 49.2645 48.4234 50.5822 48.4919C52.4085 48.5868 53.0605 48.5345 54.4196 48.1848C57.2433 47.458 59.8239 45.9236 61.8588 43.7614L62.7572 42.8068L61.5593 43.6202C57.6404 46.2805 53.9524 47.0973 50.232 46.1287C46.2926 45.1031 43.5855 42.7485 41.7067 38.7135C41.286 37.8101 40.2969 35.0421 39.5085 32.5624C38.0065 27.8383 37.0513 25.6712 35.3569 23.1442C32.6357 19.0865 28.5095 16.1374 23.8243 14.9023C21.359 14.2524 17.4681 14.0719 15.103 14.4981Z"
+              fill="#3A7E80" />
+          </svg>
+        </a>
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">О нас</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              >Услуги
+              <svg
+                class="dropdown-toggle ms-1"
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="9"
+                viewBox="0 0 14 9"
+                fill="none">
+                <rect
+                  x="1.06055"
+                  y="0.0595703"
+                  width="9.74469"
+                  height="1.5"
+                  transform="rotate(45 1.06055 0.0595703)"
+                  fill="#3A7E7F" />
+                <rect
+                  width="9.74469"
+                  height="1.5"
+                  transform="matrix(-0.707107 0.707107 0.707107 0.707107 12.832 0.0595703)"
+                  fill="#3A7E7F" />
+              </svg>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Специалисты</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Сертификат</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Акции</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Отзывы</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Контакты</a>
+          </li>
+        </ul>
+
+        <button class="btn ms-auto">Записаться на прием</button>
+      </div>
+    </nav>
+  </body>
+</html>
